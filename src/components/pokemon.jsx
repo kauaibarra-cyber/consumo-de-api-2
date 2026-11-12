@@ -10,7 +10,7 @@ export default function Pokemon(){
     }
     return(
         <div>
-          <h2>Meu pet</h2>
+          <h2>Meu Pokemon</h2>
           <p>{ret.nome}</p>
           <img src={ret.sprites.front_default} alt="" />
           <p>{ret.types[0].type.name}</p>
